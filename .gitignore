@@ -1,4 +1,5 @@
-symbol_backend_projects**
+symbol_backend_projects/**
+!symbol_backend_projects/project_links.json
 creds**
 **__pycache__**
 claude**
