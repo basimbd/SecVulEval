@@ -1,0 +1,9 @@
+symbol_backend_projects**
+creds**
+**__pycache__**
+claude**
+gpt**
+Qwen**
+Codestral**
+deepseek**
+symcache.sqlite
