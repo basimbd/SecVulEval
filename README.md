@@ -1,10 +1,5 @@
 # SecVulEval
-SecVulEval is a dataset of C/C++ vulnerabilities. The dataset includes 5,867 CVEs, 10,998 vulnerable and 14,442 non-vulnerable functions. Besides other relevant metadata, this dataset includes bug-fix changes at the statement level and contextual information related to the vulnerable statement. The dataset is available at HuggingFace and can be loaded using the following script.
-```
-from datasets import load_dataset
-
-dataset = load_dataset("arag0rn/SecVulEval", split="train")
-```
+SecVulEval is a dataset of C/C++ vulnerabilities. The dataset includes 5,867 CVEs, 10,998 vulnerable and 14,442 non-vulnerable functions. Besides other relevant metadata, this dataset includes bug-fix changes at the statement level and contextual information related to the vulnerable statement. The dataset is available in the `SecVulEval.xlsx` file included here.
 
 ## Run Vulnerability Detection
 To run the vulnerability detection experiments, first install the following packages.
